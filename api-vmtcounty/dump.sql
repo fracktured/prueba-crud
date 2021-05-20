@@ -32,7 +32,7 @@ USE vmtcounty;
 
 DROP TABLE IF EXISTS `vmt_county`;
 CREATE TABLE IF NOT EXISTS `vmt_county` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `county_fips` int(11) NOT NULL,
   `county_name` varchar(30) NOT NULL,
   `state_name` varchar(30) NOT NULL,
